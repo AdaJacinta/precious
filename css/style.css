@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 600px;
+    padding: 30px 50px;
+    }
+
+.row { 
+   display: flex;
+   justify-content: space-between;
+}
+ul.list {
+    display: flex;
+    
+}
+ul.list a{
+    color:black;  
+    text-decoration: none;
+}
+
+ul.list a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+.drivetext {
+    color: #2143aa60;
+    font-size: 130px;
+    font-weight: bolder;
+    margin-top: -100;
+}
+.bgcars {
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 100px;
+    
+}
+.footlist{
+    padding-top: 300px;
+    padding-left: 500px;
+    display: flex;
+
+}
